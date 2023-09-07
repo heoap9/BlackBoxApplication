@@ -43,5 +43,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/kakaotalk_20230907_170221971"/>
+            app:srcCompat="@drawable/dribbble_black_box"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

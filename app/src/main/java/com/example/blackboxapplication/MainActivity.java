@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
         //새로운 intent(창) 으로 실행시키는코드
         //뒤로가기나 다른 화면으로의 접근을 금지시킨다
         Intent intent = new Intent(MainActivity.this, comparehascode.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
 
         //Stream,Filelist를 접근하는 코드로
