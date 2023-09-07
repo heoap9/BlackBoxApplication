@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="#FFFFFF"
+                                                   tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/stream_button"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="436dp"
+            android:backgroundTint="#4D4948"
+            android:text="Stream"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+            android:id="@+id/file_list_button"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#4D4948"
+            android:paddingLeft="12dp"
+            android:paddingRight="13dp"
+            android:text="File List"
+            app:iconPadding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stream_button" />
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="272dp"
+            android:layout_height="294dp"
+            app:layout_constraintBottom_toTopOf="@+id/stream_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/kakaotalk_20230907_170221971"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
