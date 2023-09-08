@@ -13,14 +13,14 @@
 
 * index
   * 본 프로젝트에 사용된 구조 (이미지)
-  * <img width="821" alt="image" src="https://github.com/heoap9/BlackBoxApplication/assets/83992590/e6b9f613-44af-4847-9ca7-f4e676e9343c">
+  * <img width="563" alt="image" src="https://github.com/heoap9/BlackBoxApplication/assets/83992590/4393daa5-de88-421a-ba5c-b2d6de3b0e79">
 
 
   
 
 ## Demo
 * Blackbox 검증 페이지 이미지, 핵심코드
-* ![Animation1](https://github.com/heoap9/BlackBoxApplication/assets/83992590/e28a01ea-fced-4231-bb48-9d74b1a2f369)
+* ![Animation1](https://github.com/heoap9/BlackBoxApplication/assets/83992590/a9967e09-2b6a-431e-9565-2f32362efe4f)
     * ~~~ JAVA
               /**
          * @param result The result of the operation computed by {@link #doInBackground}.
@@ -44,7 +44,7 @@
     * 
 
 * 메인 화면에서 선택기능 버튼을 보여줌
-* ![Animation2](https://github.com/heoap9/BlackBoxApplication/assets/83992590/7d946f09-0927-45f3-bc5e-c79f87ad87ba)
+* ![Animation2](https://github.com/heoap9/BlackBoxApplication/assets/83992590/693bbadd-3835-4fb8-9fca-a466c096502e)
   * ~~~JAVA
     
         Button streambutton = findViewById(R.id.stream_button);
@@ -67,7 +67,7 @@
 
 
 * FIleList 목록
-* ![Animation3](https://github.com/heoap9/BlackBoxApplication/assets/83992590/d840b46a-6605-4649-8636-11f3b50dc1bc)
+* ![Animation3](https://github.com/heoap9/BlackBoxApplication/assets/83992590/d31ffb5f-960e-4f8d-aff1-3dcbf1a03ce7)
 
   * ~~~JAVA
     String[] lines = line.split("<br>");
@@ -82,7 +82,7 @@
     }
   
 * Filelist 선택 시 다운로드
-* ![Animation4](https://github.com/heoap9/BlackBoxApplication/assets/83992590/53e61c01-ac4f-420f-9823-7679c4c8ddd1)
+* ![Animation4](https://github.com/heoap9/BlackBoxApplication/assets/83992590/edfc3255-7a59-4443-9085-90827fa0094a)
 
   * ~~~JAVA
                 /**
